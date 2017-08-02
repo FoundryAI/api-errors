@@ -1,7 +1,7 @@
 import { suite, test } from 'mocha-typescript';
 import { expect } from 'chai';
 
-import { BaseError } from './BaseError';
+import { BaseError } from './baseError';
 
 @suite class BaseErrorDefaults {
     public error: BaseError;
