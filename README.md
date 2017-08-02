@@ -42,7 +42,7 @@ All Error classes can be instantiated with custom `message`s and `status`es
 | `RateLimitError` | `'Too many requests'` | `429` | `'rate_limit_error'` |
 | `InternalError` | `'Internal Server Error'` | `500` | `'internal_server_error'` |
 
-[build-status-badge]: https://img.shields.io/FoundryAI/api-errors/master.svg
+[build-status-badge]: https://img.shields.io/travis/FoundryAI/api-errors/master.svg
 [build-status-link]: https://travis-ci.org/FoundryAI/api-errors
 [npm-link]: https://www.npmjs.com/package/@foundry-ai/api-errors
 [npm-license-badge]: https://img.shields.io/npm/l/@foundry-ai/api-errors.svg
