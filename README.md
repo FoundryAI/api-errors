@@ -1,11 +1,15 @@
 # FoundryAI Standard API Errors
 
+[![Build Status][build-status-badge]][build-status-link]
+[![Version][npm-version-badge]][npm-link]
+[![License][npm-license-badge]][npm-link]
+
 Common errors that can be thrown and caught reliably across services
 
 ## Example
 
 ```javascript
-import { InternalError, NotFoundError } from '@foundry/api-errors'
+import { InternalError, NotFoundError } from '@foundry-ai/api-errors'
 
 function doWork(callback) {
     try {
@@ -37,3 +41,9 @@ All Error classes can be instantiated with custom `message`s and `status`es
 | `NotFoundError` | `'Not Found'` | `404` | `'not_found_error'` |
 | `RateLimitError` | `'Too many requests'` | `429` | `'rate_limit_error'` |
 | `InternalError` | `'Internal Server Error'` | `500` | `'internal_server_error'` |
+
+[build-status-badge]: https://img.shields.io/FoundryAI/api-errors/master.svg
+[build-status-link]: https://travis-ci.org/FoundryAI/api-errors
+[npm-link]: https://www.npmjs.com/package/@foundry-ai/api-errors
+[npm-license-badge]: https://img.shields.io/npm/l/@foundry-ai/api-errors.svg
+[npm-version-badge]: https://img.shields.io/npm/v/@foundry-ai/api-errors.svg

@@ -1,5 +1,5 @@
 {
-    "name": "@foundry/api-errors",
+    "name": "@foundry-ai/api-errors",
     "version": "0.1.0",
     "description": "Common errors that can be thrown and caught reliably across services",
     "main": "./dist/index.js",
