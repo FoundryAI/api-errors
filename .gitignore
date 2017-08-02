@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# Typescript output
+dist/
+
+# Mac
+.DS_Store
