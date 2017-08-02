@@ -2,6 +2,7 @@
 
 [![Build Status][build-status-badge]][build-status-link]
 [![Version][npm-version-badge]][npm-link]
+[![Test Coverage][test-coverage-badge]][test-coverage-link]
 [![License][npm-license-badge]][npm-link]
 
 Common errors that can be thrown and caught reliably across services
@@ -47,3 +48,5 @@ All Error classes can be instantiated with custom `message`s and `status`es
 [npm-link]: https://www.npmjs.com/package/@foundry-ai/api-errors
 [npm-license-badge]: https://img.shields.io/npm/l/@foundry-ai/api-errors.svg
 [npm-version-badge]: https://img.shields.io/npm/v/@foundry-ai/api-errors.svg
+[test-coverage-badge]: https://img.shields.io/coveralls/FoundryAI/api-errors/master.svg
+[test-coverage-link]: https://coveralls.io/github/FoundryAI/api-errors?branch=master
