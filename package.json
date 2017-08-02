@@ -1,8 +1,9 @@
 {
-    "name": "foundry-api-errors",
+    "name": "@foundry/api-errors",
     "version": "0.1.0",
     "description": "Common errors that can be thrown and caught reliably across services",
-    "main": "dist/index.js",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/FoundryAI/api-errors.git"
@@ -22,7 +23,9 @@
         "url": "https://github.com/FoundryAI/api-errors/issues"
     },
     "scripts": {
-        "build": "tsc -p ./tsconfig.json",
+        "build": "tsc -p ./",
+        "prepublishOnly": "tsc -p ./",
+        "run": "ts-node ./src/index.ts",
         "test": "nyc mocha",
         "watch": "mocha-typescript-watch"
     },

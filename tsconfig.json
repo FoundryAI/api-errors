@@ -3,7 +3,6 @@
         "declaration": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "inlineSources": true,
         "module": "commonjs",
         "moduleResolution": "node",
         "noImplicitAny": false,
@@ -11,16 +10,17 @@
         "outDir": "./dist",
         "preserveConstEnums": true,
         "removeComments": true,
-        "sourceMap": true,
+        "sourceMap": false,
         "strict": true,
         "strictNullChecks": true,
         "target": "es6"
     },
     "include": [
-        "./src/**/*.ts"
+        "src/**/*.ts"
     ],
     "exclude": [
+        "dist",
         "node_modules",
-        "./src/**/*.spec.ts"
+        "test/**/*.spec.ts"
     ]
 }
