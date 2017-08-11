@@ -1,7 +1,7 @@
 import { suite, test } from 'mocha-typescript';
 import { expect } from 'chai';
 
-import { BadRequestError } from './badRequestError';
+import { BadRequestError } from '../src/badRequestError';
 
 @suite class BadRequestErrorDefaults {
     public error: BadRequestError;

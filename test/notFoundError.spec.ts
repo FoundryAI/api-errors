@@ -1,7 +1,7 @@
 import { suite, test } from 'mocha-typescript';
 import { expect } from 'chai';
 
-import { NotFoundError } from './notFoundError';
+import { NotFoundError } from '../src/notFoundError';
 
 @suite class NotFoundErrorDefaults {
     public error: NotFoundError;

@@ -1,7 +1,7 @@
 import { suite, test } from 'mocha-typescript';
 import { expect } from 'chai';
 
-import { AuthenticationError } from './authenticationError';
+import { AuthenticationError } from '../src/authenticationError';
 
 @suite class AuthenticationErrorDefaults {
     public error: AuthenticationError;
