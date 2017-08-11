@@ -1,7 +1,7 @@
 import { suite, test } from 'mocha-typescript';
 import { expect } from 'chai';
 
-import { RateLimitError } from './rateLimitError';
+import { RateLimitError } from '../src/rateLimitError';
 
 @suite class RateLimitErrorDefaults {
     public error: RateLimitError;

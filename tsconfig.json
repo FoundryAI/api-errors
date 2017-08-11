@@ -16,11 +16,11 @@
         "target": "es6"
     },
     "include": [
-        "src/**/*.ts"
+        "src/**/*.ts",
+        "test/**/*.ts"
     ],
     "exclude": [
         "dist",
-        "node_modules",
-        "test/**/*.spec.ts"
+        "node_modules"
     ]
 }

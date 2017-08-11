@@ -1,7 +1,7 @@
 import { suite, test } from 'mocha-typescript';
 import { expect } from 'chai';
 
-import { ForbiddenError } from './forbiddenError';
+import { ForbiddenError } from '../src/forbiddenError';
 
 @suite class ForbiddenErrorDefaults {
     public error: ForbiddenError;

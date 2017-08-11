@@ -1,7 +1,7 @@
 import { suite, test } from 'mocha-typescript';
 import { expect } from 'chai';
 
-import { InternalError } from './internalError';
+import { InternalError } from '../src/internalError';
 
 @suite class InternalErrorDefaults {
     public error: InternalError;
