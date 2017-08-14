@@ -40,6 +40,7 @@ All Error classes can be instantiated with custom `message`s and `status`es
 | `AuthenticationError` | `'Unauthorized'` | `401` | `'authentication_error'` |
 | `ForbiddenError` | `'Forbidden'` | `403` | `'forbidden_error'` |
 | `NotFoundError` | `'Not Found'` | `404` | `'not_found_error'` |
+| `ConflictError` | `'Conflict'` | `409` | `'conflict_error'` |
 | `RateLimitError` | `'Too many requests'` | `429` | `'rate_limit_error'` |
 | `InternalError` | `'Internal Server Error'` | `500` | `'internal_server_error'` |
 
